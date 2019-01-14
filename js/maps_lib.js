@@ -196,14 +196,14 @@ function animate() {
 
         //reset filters
       //  $("#search_address").val(self.convertToPlainString($.address.parameter('address')));
-        var loadRadius = self.convertToPlainString($.address.parameter('radius'));
-        if (loadRadius != "") 
-            $("#search_radius").val(loadRadius);
-        else 
-            $("#search_radius").val(self.searchRadius);
+        //var loadRadius = self.convertToPlainString($.address.parameter('radius'));
+        //if (loadRadius != "") 
+           // $("#search_radius").val(loadRadius);
+       // else 
+            //$("#search_radius").val(self.searchRadius);
         
-        $(":checkbox").prop("checked", "checked");
-        $("#result_box").hide();
+      //  $(":checkbox").prop("checked", "checked");
+    //    $("#result_box").hide();
 
         //-----custom initializers-----
         $("#text_search").val("");
