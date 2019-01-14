@@ -195,7 +195,7 @@ function animate() {
 };
 
         //reset filters
-        $("#search_address").val(self.convertToPlainString($.address.parameter('address')));
+      //  $("#search_address").val(self.convertToPlainString($.address.parameter('address')));
         var loadRadius = self.convertToPlainString($.address.parameter('radius'));
         if (loadRadius != "") 
             $("#search_radius").val(loadRadius);
